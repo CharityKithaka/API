@@ -1,6 +1,6 @@
-#JS_TESTS
+# JS_TESTS
 
-##Setup
+## Setup
 You can clone this repository by using the link below in your machine.
 ```
 
@@ -8,12 +8,12 @@ git clone https://github.com/CharityKithaka/js_tests.git
 cd js_tests
 ```
 
-##Install dependecies
+## Install dependecies
 ```
 
 yarn install
 ```
-##Run the tests
+## Run the tests
 ```
 
 yarn test
