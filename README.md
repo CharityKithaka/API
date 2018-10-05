@@ -13,7 +13,7 @@ cd js_tests
 
 yarn install
 ```
-## Run the tests
+##  Run the tests
 ```
 
 yarn test
