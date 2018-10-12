@@ -23,21 +23,17 @@ describe('Employee', function() {
   describe ('#getDesignation', function(){
     it('return employee designation', function(){
       const economist = new Employee('Economist');
-      expect(economist.getDesignation().to.equal('Economist'));
+      expect(economist.getDesignation()).to.equal('Economist');
     })
   });
-});
+  describe('#getPayslips', function(){
+    it('return employee payslip', function(){
 
-function typeOf(payslip) {
-  var a = typeof payslip;
-  if (a === 'object') {
-    if (payslip) {
-      if (payslip instanceof Array) {
-        a = 'array';
-      };
-    } else {
-      a = 'null';
-    };
-  };
-  return a;
-};
+    })
+
+    it('accepts payslips as an array', function(){
+      const employee = new Employee('manager');
+      expect(employee.payslips).to.be.an('array');
+    });
+  });
+});
