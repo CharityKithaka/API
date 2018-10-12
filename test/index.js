@@ -28,8 +28,10 @@ describe('Employee', function() {
   });
   describe('#getPayslips', function(){
     it('return employee payslip', function(){
+      // const employee = new Employee(17);
+      // expect(employee.payslips).to.be.an(17);
 
-    })
+    });
 
     it('accepts payslips as an array', function(){
       const employee = new Employee('manager');
